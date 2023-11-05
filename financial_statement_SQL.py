@@ -62,7 +62,7 @@ class FinancialStatementDatabase:
 
 # 사용 예:
 folder_path = r"C:\test files\Basics of stock data\modified"
-db_path = r"C:\test files\Finance_SQL_DBMS\DB\financial_statements.db"
+db_path = r"C:\test files\Finance_SQL_DB_MS\DB\financial_statements.db"
 database = FinancialStatementDatabase(db_path, folder_path)
 database.read_excel_files()
 database.close_connection()
